@@ -15,7 +15,7 @@ cup by the dealer sitting on the floor. The player must guess if the
 dice total to an even (cho) or odd (han) number.
 ''')
 
-purse = 5000
+purse = 1000
 while True:  # 메인 게임 루프
     # 배팅하는 부분:
     print('You have', purse, 'won. How much do you bet? (or QUIT)')
@@ -80,4 +80,5 @@ while True:  # 메인 게임 루프
     if purse == 0:
         print('You have run out of money!')
         print('Thanks for playing!')
+        print('사용해 주셔서 감사합니다.')
         sys.exit()
